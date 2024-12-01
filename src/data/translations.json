@@ -1,68 +1,65 @@
 {
-      "languages": ["en", "es", "ca"],
-      "menuItems": {
-        "starters": {
-          "en": "Starters",
-          "es": "Entrantes",
-          "ca": "Entrants"
-        },
-        "main_courses": {
-          "en": "Main Courses",
-          "es": "Platos Principales",
-          "ca": "Plats Principals"
-        },
-        "desserts": {
-          "en": "Desserts",
-          "es": "Postres",
-          "ca": "Postres"
-        },
-        "drinks": {
-          "en": "Drinks",
-          "es": "Bebidas",
-          "ca": "Begudes"
-        },
-        "gazpacho": {
-          "en": ["Gazpacho", "Cold tomato soup"],
-          "es": ["Gazpacho", "Sopa de tomate tradicional"],
-          "ca": ["Gaspatxo", "Sopa de tomàquet tradicional"]
-        },
-        "caesar_salad": {
-          "en": ["Caesar Salad", "Salad with romaine lettuce and croutons"],
-          "es": ["Ensalada César", "Ensalada con lechuga romana y picatostes"],
-          "ca": ["Amanida Cèsar", "Amanida amb enciam romà i crostons"]
-        },
-        "paella": {
-          "en": ["Seafood Paella", "Traditional Spanish rice dish"],
-          "es": ["Paella de Mariscos", "Plato tradicional español de arroz"],
-          "ca": ["Paella de Marisc", "Plat tradicional espanyol d'arròs"]
-        },
-        "steak": {
-          "en": ["Grilled Steak", "Steak cooked on a grill"],
-          "es": ["Bistec a la Parrilla", "Bistec cocinado a la parrilla"],
-          "ca": ["Bistec a la Graella", "Bistec cuinat a la graella"]
-        },
-        "crema_catalana": {
-          "en": ["Crema Catalana", "Catalan cream dessert"],
-          "es": ["Crema Catalana", "Postre de crema catalana"],
-          "ca": ["Crema Catalana", "Postres de crema catalana"]
-        },
-        "fruit_salad": {
-          "en": ["Fruit Salad", "Mixed fruit dish"],
-          "es": ["Ensalada de Frutas", "Plato de frutas mixtas"],
-          "ca": ["Amanida de Fruites", "Plat de fruites mixtes"]
-        },
-        "sangria": {
-          "en": ["Sangria", "Spanish wine punch"],
-          "es": ["Sangría", "Ponche de vino español"],
-          "ca": ["Sangria", "Ponx de vi espanyol"]
-        },
-        "water": {
-          "en": ["Mineral Water", "Bottled water"],
-          "es": ["Agua Mineral", "Agua embotellada"],
-          "ca": ["Aigua Mineral", "Aigua embotellada"]
-        }
-      }
+  "languages": ["en", "es", "ca"],
+  "menuItems": {
+    "starters": {
+      "en": "Starters",
+      "es": "Entrantes",
+      "ca": "Entrants"
+    },
+    "main_courses": {
+      "en": "Main Courses",
+      "es": "Platos Principales",
+      "ca": "Plats Principals"
+    },
+    "desserts": {
+      "en": "Desserts",
+      "es": "Postres",
+      "ca": "Postres"
+    },
+    "drinks": {
+      "en": "Drinks",
+      "es": "Bebidas",
+      "ca": "Begudes"
+    },
+    "gazpacho": {
+      "en": ["Gazpacho", "Cold tomato soup"],
+      "es": ["Gazpacho", "Sopa de tomate tradicional"],
+      "ca": ["Gaspatxo", "Sopa de tomàquet tradicional"]
+    },
+    "caesar_salad": {
+      "en": ["Caesar Salad", "Salad with romaine lettuce and croutons"],
+      "es": ["Ensalada César", "Ensalada con lechuga romana y picatostes"],
+      "ca": ["Amanida Cèsar", "Amanida amb enciam romà i crostons"]
+    },
+    "paella": {
+      "en": ["Seafood Paella", "Traditional Spanish rice dish"],
+      "es": ["Paella de Mariscos", "Plato tradicional español de arroz"],
+      "ca": ["Paella de Marisc", "Plat tradicional espanyol d'arròs"]
+    },
+    "steak": {
+      "en": ["Grilled Steak", "Steak cooked on a grill"],
+      "es": ["Bistec a la Parrilla", "Bistec cocinado a la parrilla"],
+      "ca": ["Bistec a la Graella", "Bistec cuinat a la graella"]
+    },
+    "crema_catalana": {
+      "en": ["Crema Catalana", "Catalan cream dessert"],
+      "es": ["Crema Catalana", "Postre de crema catalana"],
+      "ca": ["Crema Catalana", "Postres de crema catalana"]
+    },
+    "fruit_salad": {
+      "en": ["Fruit Salad", "Mixed fruit dish"],
+      "es": ["Ensalada de Frutas", "Plato de frutas mixtas"],
+      "ca": ["Amanida de Fruites", "Plat de fruites mixtes"]
+    },
+    "sangria": {
+      "en": "Sangria",
+      "es": "Sangría",
+      "ca": "Sangria"
+    },
+    "water": {
+      "en": "Mineral Water",
+      "es": "Agua Mineral",
+      "ca": "Aigua Mineral"
+    }
+  }
 }
-    
-    
-    

@@ -22,7 +22,7 @@ export default function Section({ title, dishes }) {
           {dishes.map((dish) => (
             <li key={dish.id}>
               <h3>{translate(dish.id)}</h3>
-              {dish.description && <p>{dish.description}</p>}
+              {dish.description && <p>{translate(dish.id, true)}</p>}
               <h4>{dish.price}</h4>
             </li>
           ))}

@@ -1,8 +1,8 @@
 # Primera aproximación para Carta digital
 
-Se trata del planteamiento de un menú digital multilingüe para restaurante, desarrollada con React.
+Planteamiento base para el desarrrollo de una carta digital multilingüe para restaurante, desarrollada con React.
 
-Sus objetivos son:
+Los objetivos son:
 
 1. Visualización del menú: Mostrar las diferentes secciones de la carta (desayunos, la carta, brasa, postres y bebidas) con sus respectivos platos, descripciones y precios.
 2. Soporte multilingüe: Permite a los usuarios cambiar entre tres idiomas: castellano, catalán e inglés. Todos los textos del menú se actualizan dinámicamente según el idioma seleccionado.
