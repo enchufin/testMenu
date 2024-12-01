@@ -1,19 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import Navigation from "./components/Navigation.jsx";
+import Section from "./components/Section.jsx";
+import menuData from './data/carta.json';
+import { LanguageProvider } from './contexts/LanguageProvider.jsx';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentSection, setCurrentSection] = useState(menuData.sections[0]);
 
   return (
-    <>
-      <div>
-        <h1>Hola mundo esto es un titulo balanceado</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam culpa corporis ipsum blanditiis minus libero, et animi qui ducimus, exercitationem quia soluta vel repellendus neque reprehenderit quam doloremque, labore cupiditate?</p>
-       </div>
-    </>
-  )
+    <LanguageProvider>
+      {console.log(menuData.sections)}
+      <Navigation 
+        sections={menuData.sections} 
+        onSectionChange={setCurrentSection} />
+      <main>
+        <Section 
+          title={currentSection}
+          dishes={menuData.dishes[currentSection]} />
+      </main>
+    </LanguageProvider>
+  );
 }
 
-export default App
+export default App;

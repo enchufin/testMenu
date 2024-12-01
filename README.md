@@ -1,6 +1,6 @@
 # Primera aproximación para Carta digital
 
-Se trata de el planteamiento de menú digital multilingüe para un restaurante, desarrollada con React.
+Se trata del planteamiento de un menú digital multilingüe para restaurante, desarrollada con React.
 
 Sus objetivos son:
 

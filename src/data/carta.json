@@ -1,0 +1,53 @@
+{
+      "sections": ["starters", "main_courses", "desserts", "drinks"],
+      "dishes": {
+        "starters": [
+          {
+            "id": "gazpacho",
+            "description": "Cold tomato soup",
+            "price": 6.50
+          },
+          {
+            "id": "caesar_salad",
+            "description": "Salad with chicken, lettuce, croutons, parmesan cheese and Caesar dressing",
+            "price": 8.00
+          }
+        ],
+        "main_courses": [
+          {
+            "id": "paella",
+            "description": "Rice with seafood",
+            "price": 15.00
+          },
+          {
+            "id": "steak",
+            "description": "Grilled beef steak",
+            "price": 18.50
+          }
+        ],
+        "desserts": [
+          {
+            "id": "crema_catalana",
+            "description": "Catalan cream",
+            "price": 5.50
+          },
+          {
+            "id": "fruit_salad",
+            "description": "Fruit salad",
+            "price": 4.50
+          }
+        ],
+        "drinks": [
+          {
+            "id": "sangria",
+            "price": 4.00
+          },
+          {
+            "id": "water",
+            "price": 1.50
+          }
+        ]
+      }
+    }
+    
+    
