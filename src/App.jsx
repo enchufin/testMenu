@@ -10,15 +10,16 @@ function App() {
 
   return (
     <LanguageProvider>
-      {console.log(menuData.sections)}
-      <Navigation 
-        sections={menuData.sections} 
-        onSectionChange={setCurrentSection} />
-      <main>
-        <Section 
-          title={currentSection}
-          dishes={menuData.dishes[currentSection]} />
-      </main>
+      <div className="min-h-screen bg-gray-200 flex flex-col items-center pt-16 fondo">
+        <Navigation 
+          sections={menuData.sections} 
+          onSectionChange={setCurrentSection} />
+        <main className="container mx-auto p-4 max-w-3xl">
+          <Section 
+            title={currentSection}
+            dishes={menuData.dishes[currentSection]} />
+        </main>
+      </div>
     </LanguageProvider>
   );
 }

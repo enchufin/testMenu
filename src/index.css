@@ -1,10 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fondo {
+      background-image: url('/src/assets/logo-brases-min.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center top;
+      z-index: -1; 
+    }
+
 /* CSS Reset */
-* { margin:0; padding: 0; }
+/* * { margin:0; padding: 0; }
 *, *::before, *::after { box-sizing: border-box; }
 
 body { min-height: 100dvh; }
 input, button, textarea, select { font: inherit; }
 
 p{ text-wrap: pretty; }
-h1,h2,h3,h4,h5,h6 {text-wrap: balance;}
+h1,h2,h3,h4,h5,h6 {text-wrap: balance;} */
 /* end of Reset */

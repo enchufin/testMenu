@@ -8,20 +8,21 @@ Navigation.propTypes = {
 
 export default function Navigation({ sections, onSectionChange }) {
   const { currentLanguage, changeLanguage, translate } = useLanguage();
-  console.log(sections);
   return (
-    <nav className="bg-gray-800 text-white p-4">
+    <nav className="min-w-full bg-elBrasesRed text-white p-4 fixed top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="space-x-4">
           {sections.map((section) => (
             <button
               key={section}
               onClick={() => onSectionChange(section)}
-              className="hover:text-gray-300"
+              className="hover:text-gray-300 px-2 py-1 text-base md:text-lg md:px-1 md:py-0"
             >
               {translate(section)}
             </button>
           ))}
+        </div>
+        <div className="space-x-4">
           <select
             value={currentLanguage}
             onChange={(e) => changeLanguage(e.target.value)}
@@ -34,7 +35,6 @@ export default function Navigation({ sections, onSectionChange }) {
             {currentLanguage !== 'ca' && <option value="ca">Català</option>}
             {currentLanguage !== 'en' && <option value="en">English</option>}
           </select>
-          {/* TO DO: TOGGLE BUTTON DARKMODE */}
         </div>
       </div>
     </nav>
