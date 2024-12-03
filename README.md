@@ -4,8 +4,8 @@ Planteamiento base para el desarrrollo de una carta digital multilingüe para re
 
 Los objetivos son:
 
-1. Visualización del menú: Mostrar las diferentes secciones de la carta (desayunos, la carta, brasa, postres y bebidas) con sus respectivos platos, descripciones y precios.
-2. Soporte multilingüe: Permite a los usuarios cambiar entre tres idiomas: castellano, catalán e inglés. Todos los textos del menú se actualizan dinámicamente según el idioma seleccionado.
+1. **Visualización del menú**: Mostrar las diferentes secciones de la carta (desayunos, la carta, brasa, postres y bebidas) con sus respectivos platos, descripciones y precios.
+2. **Soporte multilingüe**: Permite a los usuarios cambiar entre tres idiomas: castellano, catalán e inglés. Todos los textos del menú se actualizan dinámicamente según el idioma seleccionado.
 3. Modo claro/oscuro: Incluir la opción de alternar entre un tema claro y oscuro para mejorar la legibilidad en diferentes condiciones de iluminación.
 4. Navegación intuitiva: Permitir a los usuarios poder navegar fácilmente entre las diferentes secciones del menú a través de un componente de navegación.
 5. Diseño responsivo: La aplicación estará diseñada para adaptarse a diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio.

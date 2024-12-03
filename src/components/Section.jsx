@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useLanguage } from '../hooks/useLanguage';
+import Dish from './Dish';
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
@@ -20,11 +21,7 @@ export default function Section({ title, dishes }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <ul>
           {dishes.map((dish) => (
-            <li key={dish.id}>
-              <h3>{translate(dish.id)}</h3>
-              {dish.description && <p>{translate(dish.id, true)}</p>}
-              <h4>{dish.price}</h4>
-            </li>
+            <Dish key={dish.id} dish={dish} />
           ))}
         </ul>
       </div>
